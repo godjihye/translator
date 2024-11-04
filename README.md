@@ -8,3 +8,6 @@ Swift UIKit
 
 ### AI Service
 Azure AI Service(TextTranslation)
+
+### Library
+Alamofire: https://github.com/Alamofire/Alamofire
