@@ -57,7 +57,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 		let trn = translations[indexPath.row]
 		let lblTo = cell.viewWithTag(1) as? UILabel
 		let lblText = cell.viewWithTag(2) as? UILabel
-		lblTo?.text = trn.to
+		lblTo?.text = trn.to.components(separatedBy: "-")[0]
 		lblText?.text = trn.text
 		return cell
 	}
